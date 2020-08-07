@@ -2,6 +2,8 @@
 <html>
     <head>
         <title>Reatuarant Page</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet"> 
     </head>
     <body>
         
@@ -9,10 +11,28 @@
             <h1>Mamma mia!</h1>
             <h2>Italian restaurant</h2>
             <div id="navbar">
-                <div class ="navlink">Home</div>
-                <div class ="navlink">Menu</div>
-                <div class ="navlink">About us</div>
-                <div class ="navlink">Contact</div>
+                <a href="#home" class="active" >Home</a>
+                <a href="#menu" >Menu</a>
+                <a href="#aboutus" >About us</a>
+                <a href="#contact" >Contact</a>
+            </div>
+            <div><img id="pizza_img" src="pizza_img"></div>
+            <div id="reviews">
+                <div class="review">
+                    <p>"Great place to eat with family"</p>
+                    <h5>Anthony Miller</h5>
+                    <h4>★★★★☆</h4>
+                </div>
+                <div class="review">
+                    <p>"Very cozy!"</p>
+                    <h5>Thomas Wayne, top reviewr</h5>
+                    <h4>★★★☆☆</h4>
+                </div>
+                <div class="review">
+                    <p>"I love it!"</p>
+                    <h5>The New York Times</h5>
+                    <h4>★★★★★</h4>
+                </div>
             </div>
         </div>
         <script src="main.js"></script>
